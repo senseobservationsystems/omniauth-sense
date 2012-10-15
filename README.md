@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/senseobservationsystems/omniauth-sense.png)](https://travis-ci.org/senseobservationsystems/omniauth-sense)
+
 ## Usage
 First register your application to CommonSense by visiting (OAuth registration page)[1]
 You will obtain application KEY and Application Secret
