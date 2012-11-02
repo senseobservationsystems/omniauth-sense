@@ -21,7 +21,7 @@ describe OmniAuth::Strategies::Sense do
 
   describe '#consumer' do
     it 'has correct Sense site' do
-      subject.consumer.options[:site].should eq('http://api.sense-os.nl')
+      subject.consumer.options[:site].should eq('https://api.sense-os.nl')
     end
 
     it 'has correct request token url' do

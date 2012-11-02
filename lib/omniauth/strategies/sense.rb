@@ -5,7 +5,7 @@ module OmniAuth
     class Sense < OmniAuth::Strategies::OAuth
       option :name, 'sense'
       option :client_options, {
-        :site => 'http://api.sense-os.nl',
+        :site => 'https://api.sense-os.nl',
         :request_token_path => '/oauth/request_token',
         :access_token_path => '/oauth/access_token',
         :authorize_path => '/oauth/authorize'
